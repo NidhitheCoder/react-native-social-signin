@@ -1,5 +1,5 @@
 import React from "react";
-import {View} from 'react-native'
+import {Text, View} from 'react-native'
 // import { createAppContainer, createSwitchNavigator } from "react-navigation";
 // import {createBottomTabNavigator} from 'react-navigation-tabs';
 // import { createStackNavigator } from "react-navigation-stack";
@@ -21,6 +21,7 @@ import Facebook from './src/screen/Facebook';
 const App = () =>{
   return(
     <View>
+    <Text>Hiii</Text>
     <Google />
     <Facebook />
     </View>
